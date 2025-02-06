@@ -1,0 +1,11 @@
+prefix=Z:/installed/folly
+exec_prefix=Z:/installed/folly
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libfolly
+Description: Facebook (Folly) C++ library
+Version: 0.58.0-dev
+Cflags: -I${includedir} /utf-8  -DBOOST_CONTEXT_NO_LIB -DBOOST_FILESYSTEM_NO_LIB -DBOOST_PROGRAM_OPTIONS_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_NO_LIB -DGFLAGS_IS_A_DLL=1 -IZ:/installed/boost-j87OMWOXP_bckXwicS6ksM-KFtS7GWFCkys_8BDOuOU/include/boost-1_83 -IZ:/installed/double-conversion-8mKSdZvJdFXeCvxOrb3PW5TLeYkqAcx5XUEJVVFYXLM/include -IZ:/installed/fast_float-rYciE9EL9z1_xSPXnIb3Y9s3xnxhQLoeJX9In1tGsIY/include -IZ:/installed/gflags-VgqXW0_GSrkNT9Yk1rpfKYGpQq9ZEpO4o3cUqka1tE0/include -IZ:/installed/glog-KAAKmitmqqhCfXSQ59Mb96AWV040MjlOexMVcAme5NQ/include -IZ:/installed/libevent-PTPFyPcC1fKKBqxX7BUnhJU8QpKUgLLyLkcASlDm8dA/include -IZ:/installed/zlib-RfPNVw6FYUhW1bWHaZJ9VeT4byYa7vNX3omy64eiJHs/include -IZ:/installed/openssl-jQhmROOnNsA3C9GIwjSnm14fPAecb8cMrx652l1V9Xg/include -IZ:/installed/lz4-RwXlmqvTjG4TeH55PWTl0jbCiI-IKAg9xYC0dJbgIgY/include -IZ:/installed/zstd-9yPf66c44z-qiLbRAvljJhfBbxuI_BEzzhJVzoIJsGA/include -IZ:/installed/snappy-DLqzKuo2mkX6ad6bayRpVguZ_s1GwaWuXBz1_H8XStI/include -IZ:/installed/libdwarf-Ym_v0An-St6dtQ4irfMfy8mdVlUo6ZfGgvwLfdUFWTw/include
+Libs: -L${libdir} -lfolly
+Libs.private: -lIphlpapi.lib -lWs2_32.lib -lZ:/installed/double-conversion-8mKSdZvJdFXeCvxOrb3PW5TLeYkqAcx5XUEJVVFYXLM/lib/double-conversion.lib -lZ:/installed/glog-KAAKmitmqqhCfXSQ59Mb96AWV040MjlOexMVcAme5NQ/lib/glog.lib -lZ:/installed/libevent-PTPFyPcC1fKKBqxX7BUnhJU8QpKUgLLyLkcASlDm8dA/lib/event.lib -lZ:/installed/zlib-RfPNVw6FYUhW1bWHaZJ9VeT4byYa7vNX3omy64eiJHs/lib/zlib.lib -lZ:/installed/openssl-jQhmROOnNsA3C9GIwjSnm14fPAecb8cMrx652l1V9Xg/lib/libssl.lib -lZ:/installed/openssl-jQhmROOnNsA3C9GIwjSnm14fPAecb8cMrx652l1V9Xg/lib/libcrypto.lib -lZ:/installed/lz4-RwXlmqvTjG4TeH55PWTl0jbCiI-IKAg9xYC0dJbgIgY/lib/lz4.lib -lZ:/installed/zstd-9yPf66c44z-qiLbRAvljJhfBbxuI_BEzzhJVzoIJsGA/lib/zstd_static.lib -lZ:/installed/snappy-DLqzKuo2mkX6ad6bayRpVguZ_s1GwaWuXBz1_H8XStI/lib/snappy.lib -lZ:/installed/libdwarf-Ym_v0An-St6dtQ4irfMfy8mdVlUo6ZfGgvwLfdUFWTw/lib/dwarf.lib

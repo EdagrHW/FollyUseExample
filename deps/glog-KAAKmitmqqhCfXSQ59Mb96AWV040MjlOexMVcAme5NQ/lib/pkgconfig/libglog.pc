@@ -1,0 +1,10 @@
+prefix=Z:/installed/glog-KAAKmitmqqhCfXSQ59Mb96AWV040MjlOexMVcAme5NQ
+exec_prefix=Z:/installed/glog-KAAKmitmqqhCfXSQ59Mb96AWV040MjlOexMVcAme5NQ/bin
+libdir=Z:/installed/glog-KAAKmitmqqhCfXSQ59Mb96AWV040MjlOexMVcAme5NQ/lib
+includedir=Z:/installed/glog-KAAKmitmqqhCfXSQ59Mb96AWV040MjlOexMVcAme5NQ/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.5.0
+Libs: -L${libdir} -lglog
+Cflags: -I${includedir}

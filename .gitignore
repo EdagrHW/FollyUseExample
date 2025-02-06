@@ -32,7 +32,5 @@
 *.app
 .vs
 out
-bin 
-lib
 install
 CMakeSettings.json

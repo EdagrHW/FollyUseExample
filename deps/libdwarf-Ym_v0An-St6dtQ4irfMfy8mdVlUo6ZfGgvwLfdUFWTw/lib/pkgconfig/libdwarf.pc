@@ -1,0 +1,12 @@
+
+prefix=Z:/installed/libdwarf-Ym_v0An-St6dtQ4irfMfy8mdVlUo6ZfGgvwLfdUFWTw
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: libdwarf
+Description: DWARF debug symbols library
+Version: "0.9.2"
+Libs: -L${libdir} -ldwarf
+Cflags: -I${includedir}
+

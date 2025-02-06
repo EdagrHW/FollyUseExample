@@ -1,0 +1,11 @@
+prefix=Z:/installed/fmt-FrbNZkVr8a7S3rreltgO0SK38B44pTmxkVsTnCdDiqE
+exec_prefix=Z:/installed/fmt-FrbNZkVr8a7S3rreltgO0SK38B44pTmxkVsTnCdDiqE
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: fmt
+Description: A modern formatting library
+Version: 11.0.2
+Libs: -L${libdir} -lfmt
+Cflags: -I${includedir}
+
